@@ -1,0 +1,42 @@
+body{
+    margin: 0 3vw;
+
+    background: #EBEBEB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+
+}
+
+@font-face {
+	font-family: space_grotesk;
+	src: url(fonts\Space_Grotesk\SpaceGrotesk-VariableFont_wght.ttf) format('ttf');
+}
+
+h1{
+    font-family: space_grotesk, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+
+    color: rgba(33, 0, 109, 1);
+}
+
+h2{
+    font-family: space_grotesk, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+
+    color: rgba(69, 0, 122, 1);
+}
+
+p{
+    font-family: space_grotesk, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: black;
+    text-align: center;
+}
