@@ -87,7 +87,9 @@
 <br>
 
 <p>
-    For this week, I chose to combine both of the hour 2 task options, by creating a calligram of a smiling emoji from an intro about myself. 
+    For this week, I chose to combine both of the hour 2 task options, by creating a calligram of an emoji style icon from an extract of an intro about myself. 
+
+    For the accessible version of the text, I chose to use a very dark grey colour.
 </p>
 
 <h2 id="w02">Week 02</h2>

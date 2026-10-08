@@ -12,12 +12,19 @@ body{
 }
 
 @font-face {
-	font-family: space_grotesk;
-	src: url(fonts\Space_Grotesk\SpaceGrotesk-VariableFont_wght.ttf) format('ttf');
+	font-family: 'space_grotesk';
+	src: url(fonts\Space_Grotesk\SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100 700;
+}
+
+@font-face {
+    font-family: 'open_dyslexic';
+	src: url(fonts\Open_Dyslexic\OpenDyslexic-Regular.otf) format('opentype');
+    font-weight: 400;
 }
 
 h1{
-    font-family: space_grotesk, sans-serif;
+    font-family: "space_grotesk";
     font-size: 3rem;
     font-weight: 600;
 
@@ -25,7 +32,7 @@ h1{
 }
 
 h2{
-    font-family: space_grotesk, sans-serif;
+    font-family: "space_grotesk";
     font-size: 2rem;
     font-weight: 500;
 
@@ -33,10 +40,22 @@ h2{
 }
 
 p{
-    font-family: space_grotesk, sans-serif;
+    font-family: "space_grotesk";
     font-size: 1rem;
     font-weight: 400;
 
     color: black;
-    text-align: center;
+    text-align: left;
+}
+
+.accessible-text{
+    font-family: "open_dyslexic", sans-serif!important;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    color: black;
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.5rem;
 }
