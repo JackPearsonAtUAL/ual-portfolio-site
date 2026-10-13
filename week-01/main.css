@@ -13,13 +13,13 @@ body{
 
 @font-face {
 	font-family: 'space_grotesk';
-	src: url(fonts\Space_Grotesk\SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+	src: url(week-01/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
     font-weight: 100 700;
 }
 
 @font-face {
     font-family: 'open_dyslexic';
-	src: url(fonts\Open_Dyslexic\OpenDyslexic-Regular.otf) format('opentype');
+	src: url(week-01/OpenDyslexic/OpenDyslexic-Regular.otf) format('opentype');
     font-weight: 400;
 }
 
@@ -49,7 +49,7 @@ p{
 }
 
 .accessible-text{
-    font-family: "open_dyslexic", sans-serif!important;
+    font-family: "open_dyslexic"!important;
     font-size: 1.5rem;
     font-weight: 400;
 

@@ -49,6 +49,9 @@
         .indexButton a:hover{
             text-decoration: none;
         }
+        li{
+            color:#090012; 
+        }
     </style>
 </head>
 
@@ -88,8 +91,17 @@
 
 <p>
     For this week, I chose to combine both of the hour 2 task options, by creating a calligram of an emoji style icon from an extract of an intro about myself. 
-
-    For the accessible version of the text, I chose to use a very dark grey colour.
+    <br><br>
+    For the accessible version of the part of the assignment, 
+    I made the following changes:
+    <ul>
+        <li>Made the background an off white instead of 'pure' white</li>
+        <li>Made the text a very dark grey, instead of black </li>
+        <li>Increased the line height of text</li>
+        <li>Increased the size of text</li>
+        <li>Increased the letter spacing</li>
+        <li>Changed the font</li>
+    </ul>
 </p>
 
 <h2 id="w02">Week 02</h2>
