@@ -10,14 +10,17 @@
             text-decoration:underline;
             }
         h2{
-            color:#360069;
+            color: #360069;
             }
         h3{
-            color:#210040;
+            color: #210040;
             }   
         p{
-            color:#090012;
+            color: #090012;
             }
+        img{
+            color: #090012;
+        }
         .framedImage{
             margin: 0 25%;
             max-width: 50vw;
@@ -86,22 +89,41 @@
 
 <h2 id="w01">Week 01</h2>
 <a href="https://moodle.arts.ac.uk/course/section.php?id=595120#:~:text=accessible%20text%20formatting.-,Task,-(weekly%20task)%3A%C2%A0">Link to task</a>
-
 <br>
-
 <p>
     For this week, I chose to combine both of the hour 2 task options, by creating a calligram of an emoji style icon from an extract of an intro about myself. 
     <br><br>
-    For the accessible version of the part of the assignment, 
-    I made the following changes:
+    For the accessible version of the part of the assignment, this is the before:
+</p>
+<img src="images/week01-before.png" alt="Screenshot of the original text description from the week 01 task">
+<p>
+    This is the after:
+</p>
+<img src="images/week01-after.png" alt="Screenshot of the modified text description from the week 01 task">
+<p>
+If you are unable to view the images, these are the following changes:
+</p>
     <ul>
-        <li>Made the background an off white instead of 'pure' white</li>
-        <li>Made the text a very dark grey, instead of black </li>
+        <li>Background from white to an off-white</li>
+        <li>Text is now dark grey instead of black</li>
         <li>Increased the line height of text</li>
         <li>Increased the size of text</li>
         <li>Increased the letter spacing</li>
         <li>Changed the font</li>
     </ul>
+<p>
+    The goal of all this is was to make the text more defined and easier to read for the visually imapared an dyslexic.
+    <br><br>
+    The reason for changing the background and text colour is actually a personal. Because I spend so much time on devices, when I work on custom websites I make the background an off white, which is gentler on my eyes. I also take away the harshness of the black text by lightening it just a fraction.
+    <br><br>
+    For the font styling, I decided to increase the line height, to help with characters which go below the text line, i.e. pqyj, etc. The incease in text size was to make the text stand out a bit more and be more visable to those with impared vision. For the same reason, I increased the word spacing and letter spacing, in order to make each charater and word more defined
+    <br><br>
+    Finally, when I was browsing the internet for dyslexic friendly fonts, the primary reccomended was called Open Dyslexia. The reasoning given is that the font was made in such a way that it would catch the reader's eye on a specific part of each letter.
+    <br>  
+</p>
+<h3>Reflection on the readability of the text</h3>
+<p>
+    Putting the calligram aside, the text should tick every tick box for accessable text. The text is decently spaced; nothing overlaps and words are distinct. The font is widely agreed to be the most accessible for visually imapred and dyslexic readers. The background colour and text colour have a high enough contrast, meaning the text is distinct from the background.
 </p>
 
 <h2 id="w02">Week 02</h2>

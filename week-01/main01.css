@@ -1,0 +1,52 @@
+body{
+    margin: 0 3vw;
+
+    background: #EBEBEB;
+
+}
+
+.vert-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+h1{
+    font-family: "Space Grotesk";
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+
+    color: rgba(33, 0, 109, 1);
+}
+
+h2{
+    font-family: "Space Grotesk";
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+
+    color: rgba(69, 0, 122, 1);
+}
+
+p{
+    font-family: "Space Grotesk";
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: #090012;
+    text-align: left;
+}
+
+.accessible-text{
+    font-family: "Open-Dyslexic"!important;
+    font-size: 1.2rem;
+
+    color: #090012;
+    text-align: left;
+    line-height: 1.5rem;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.1rem;
+}
