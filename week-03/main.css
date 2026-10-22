@@ -1,0 +1,46 @@
+.canvas{
+    width: 440px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(22, 20px);
+    grid-template-rows: repeat(25, 20px);
+}
+
+.square{
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+.square:hover{
+    height: 18px;
+    width: 18px;
+    margin: 1px 2px 2px 1px;
+    border-radius: 25%;
+
+    animation: squareAnim 10s linear infinite;
+}
+
+@keyframes squareAnim {
+    0%{
+        background-color: hsl(0, 100%, 50%);
+    }
+    16%{
+        background-color: hsl(60, 100%, 50%);
+    }
+    32%{
+        background-color: hsl(120, 100%, 50%);
+    }
+    48%{
+        background-color: hsl(180, 100%, 50%);
+    }
+    64%{
+        background-color: hsl(220, 100%, 50%);
+    }
+    80%{
+        background-color: hsl(280, 100%, 50%);
+    }
+    100%{
+        background-color: hsl(360, 100%, 50%);
+    }
+}
