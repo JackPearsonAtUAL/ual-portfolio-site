@@ -11,9 +11,13 @@ body{
     width: 440px;
     height: 500px;
 
+    background: black;
+
     display: grid;
     grid-template-columns: repeat(22, 20px);
     grid-template-rows: repeat(25, 20px);
+
+    scale: 45%;
 }
 
 .square{
