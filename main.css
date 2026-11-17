@@ -19,6 +19,37 @@ body{
     color: var(--text-color);
 }
 
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    letter-spacing: 0.07rem;
+}
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.07rem;
+}
+h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0.07rem;
+}
+h4{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+}
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem;
+}
+
 header{
     margin: 0;
     padding: 0 1% 1% 1%;
@@ -65,24 +96,28 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
     color: var(--text-color);
 }
 
 nav ul li a:hover{
+    font-weight: 800;
     text-align: center;
     text-decoration: underline;
     color: var(--hover-link-color);
 }
 
 nav ul li a:active{
+    font-weight: 600;
     text-align: center;
-    font-weight: 700;
     text-decoration: none;
     color: var(--active-link-color);
 }
 
+/* Main Content */
 #mainContent{
     min-height: 100vh;
     padding: 3%;
@@ -114,4 +149,37 @@ nav ul li a:active{
     align-self: flex-end;
 
     background-image: linear-gradient(45deg, var(--primary-dark-color), var(--secondary-dark-color));
+}
+
+.typing-text{
+	padding: 0 15px;	
+	overflow: hidden;	
+	color:transparent;	
+	background: linear-gradient(135deg, var(--primary-dark-color)20%, var(--secondary-dark-color)80%);
+	-webkit-background: linear-gradient(135deg, var(--primary-dark-color)20%, var(--secondary-dark-color)80%);
+	-moz-background: linear-gradient(135deg, var(--primary-dark-color)20%, var(--secondary-dark-color)80%);
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+}
+
+.typing-text li{
+	list-style: none;
+	top: 0;
+	position: relative;
+	text-align: center;
+	}
+
+.typing-text li{
+	position: relative;
+}
+
+.typing-text li::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--bg);
 }
