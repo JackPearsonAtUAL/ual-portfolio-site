@@ -14,13 +14,29 @@
 <body>
     <!-- Heading Bar -->
     <header>
+        
         <!-- Navigation Menu -->
         <nav>
             <ul>
+                <li class="logo-holder" ><a href="index.html"><img class="logo" src="images/jack_pearson_logo-4(cropped).webp" 
+                    alt="Jack Pearson logo"></a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio-year1.html">Year 1</a></li>
-                <li><a href="portfolio-year2.html">Year 2</a></li>
-                <li><a href="portfolio-year3.html">Year 3</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Portfolio</button>
+                        <div class="dropdown-content">
+                            <a href="portfolio-year1.html">Year1</a>
+                            <a href="portfolio-year2.html">Year2</a>
+                            <a href="portfolio-year3.html">Year3</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <nav class="sub-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>          
             </ul>
         </nav>
     </header>  
@@ -29,7 +45,7 @@
     
     <!-- Main Content -->
     <div id="mainContent">
-        <div class="sect-vert centered">
+        <div class="sect-vert" style="    justify-content: center; align-items: center; text-align: center; vertical-align: middle;">
             <p>Hello, <br> I'm Jack a</p>			
                 <ul class="typing-text">
                     <li><h2><span>Freelancer<span></h2></li>
@@ -40,7 +56,27 @@
             <p>from England.</p>
         
         </div> 
-        <div class="divider centered"></div> 
 
+        <div class="divider centered"></div>
+
+        <div class="sect-horz centered">
+            <div clss="sect-vert centered" style="width: 50%;">
+                <h1 id="about">About</h1>
+            </div>
+            <div clss="sect-vert centered" style="width: 50%;">
+                <p>
+                    Hello! I'm Jack, a games programmer, website developer and designer from the UK. I started working 
+                    part time in a small IT company at age 13 during the first pandemic. For the next couple of years I 
+                    would continue to build computers while also doing my GCSEs. 
+                    <br><br>
+                    After entering Sixth Form (College in the UK), I branched out and started 
+                    working on developing websites for my employer, whilst also studying Games Development and Design at
+                    College. Currently I am a BSc(Hons) Creative Computing student at the University of the Arts London
+                    <br><br>
+                    This site you're on now is a showcase of both my web skills and a compilation of my previous projects.
+                    Some of the projects displayed have been completed, but may have changes made to them over time.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
