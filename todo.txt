@@ -1,0 +1,15 @@
+Header bar
+    Fix misalignment of logo to backgorund
+    Add accessbility button
+        Create the accessibility menu
+    Make header shrink when not at top
+        Then it enlarges when hovering over it
+Homepage
+    Fix anchoring offset
+    Add contact form
+Portfolio Pages
+    Add Year 1 contents
+    Add the current Year 2 contents 
+Footer
+    Create the sitemap with links
+    Add credits
